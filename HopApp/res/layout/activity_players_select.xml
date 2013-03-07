@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayersSelectActivity" >
+
+    <EditText 
+        android:id="@+id/players_select_edit_text_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFilter"
+        android:singleLine="true"
+        android:imeOptions="actionDone"></EditText>
+
+    <Button
+        android:id="@+id/players_select_new_player_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="buttonClickCreateNewPlayer"
+        android:text="Create New Player" 
+        />
+          
+    <Button
+        android:id="@+id/players_select_button_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/players_select_new_player_button"
+        android:onClick="buttonClickClear"
+        android:text="Clear" 
+        />    
+            
+    <LinearLayout 
+        android:layout_below="@id/players_select_edit_text_filter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@id/players_select_button_clear">
+    
+	    <ListView
+	        android:id="@+id/users_select_list"
+	        android:layout_width="0dp"        
+	        android:layout_height="120dp"
+	        android:layout_weight="0.5">
+	        
+	    </ListView>
+	    
+	    <ListView
+	        android:id="@+id/users_selected_list"
+	        android:layout_width="0dp"        
+	        android:layout_height="120dp"
+	        android:layout_weight="0.5">
+	        
+	    </ListView>
+        
+    </LinearLayout>       
+          
+</RelativeLayout>

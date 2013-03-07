@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<WeddingProblem>
+	<Guests>
+	    <Guest>
+	        <Name>Dafna Gam</Name>
+	        <MusicLover>True</MusicLover>
+	        <Enemies>
+	            <Name>Nasralla</Name>
+	            <Name>Bibi</Name>
+	        </Enemies>
+	    </Guest>
+	    <Guest>
+	        <Name>Aviram Stern</Name>
+	        <MusicLover>True</MusicLover>
+	        <Enemies>
+	            <Name>Nasralla</Name>
+	        </Enemies>
+	    </Guest>
+	    <Guest>
+	        <Name>Nasralla</Name>
+	        <MusicLover>False</MusicLover>
+	        <Enemies>
+	            <Name>Bibi</Name>
+	        </Enemies>
+	    </Guest>
+	    <Guest>
+	        <Name>Bibi</Name>
+	        <MusicLover>True</MusicLover>
+	        <Enemies>
+	            <Name>Nasralla</Name>
+	        </Enemies>
+	    </Guest>  
+	</Guests>
+	<Tables>
+	    <Table>
+	        <Number>1</Number>
+	        <CloseToMusic>False</CloseToMusic>
+	    </Table>
+	    <Table>
+	        <Number>2</Number>
+	        <CloseToMusic>True</CloseToMusic>
+	    </Table>    
+	    <Table>
+	        <Number>3</Number>
+	        <CloseToMusic>False</CloseToMusic>
+	    </Table>   
+	</Tables>
+	<FriendsSets>
+	    <FriendsSet>
+	        <Name>Aviram Stern</Name>
+	        <Name>Bibi</Name>
+	        <Name>Dafna Gam</Name>
+	    </FriendsSet>
+	    <FriendsSet>
+	        <Name>Nasralla</Name>
+	    </FriendsSet>    
+	</FriendsSets>
+	<FamiliesSets>
+	    <FamilySet>
+	        <Name>Aviram Stern</Name>
+	        <Name>Dafna Gam</Name>
+	    </FamilySet>
+	    <FamilySet>
+	        <Name>Bibi</Name>
+	    </FamilySet>
+	    <FamilySet>
+	        <Name>Nasralla</Name>
+	    </FamilySet>
+	</FamiliesSets>
+</WeddingProblem>
